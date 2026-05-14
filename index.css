@@ -1,0 +1,76 @@
+main {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: whitesmoke;
+    margin: auto 0;
+}
+
+form {
+    padding: 20px;
+    background-color: bisque;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+h1 {
+    text-align: center ;
+    color: darkslategray;
+}
+
+#roster {
+    background: whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+}
+#roster li {
+    cursor: pointer;
+    padding: 5px;
+    border-bottom: 1px solid lightgray;
+}
+
+#roster img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+button {
+    background-color: darkslategray;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: slategray;
+}
+.puppy span {
+    font-weight: bold;
+}
+li {
+    border: 2px;
+    padding: 6px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background-color: wheat;
+}
+a {
+    color: darkslategray;
+}
+
+li:hover {
+    background-color: lightgray;
+}
